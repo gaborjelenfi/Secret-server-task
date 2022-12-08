@@ -58,3 +58,9 @@ Create a new secret:
   1. Use the **Home** button at the top left corner
   
  Simple as that.
+ 
+ ## Screenshot
+ 
+ <p align=center>
+<img src="/images/list.png">
+</p>
