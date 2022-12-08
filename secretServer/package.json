@@ -1,0 +1,32 @@
+{
+  "name": "secretserver",
+  "version": "1.0.0",
+  "description": "Secret Server Task for OptiMonk\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[ to\u001b[\u001b[C\u001b",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --forceExit --detectOpenHandles  --watchAll --maxWorkers=1",
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "author": "Gabor Jelenfi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "cryptr": "^6.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.7.4"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
